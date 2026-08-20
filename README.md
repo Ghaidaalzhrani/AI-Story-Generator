@@ -27,6 +27,7 @@ Location: Dammam
 Character's age: 19
 Character's goal: succeed in her AI major, become well-known in the field, and get hired at an excellent job
 Ending: Happy
+```
 
 **Output:**
 
