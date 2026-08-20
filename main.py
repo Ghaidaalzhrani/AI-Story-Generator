@@ -10,6 +10,7 @@ model = genai.GenerativeModel("gemini-3.6-flash")
 print("AI Story Generator")
 print("Every Choice Creates a New Story")
 
+character_name = input("What is the character's name : ")
 story_type = input ("Choose a story type :")
 location = input ("Choose the location : ")
 age = input ("Enter the character's age : ")
@@ -23,7 +24,7 @@ print("Character's age :" , age)
 print("Character's goal :" , goal)
 print("Ending :" , ending)
 
-story_data = {"type" : story_type , "location" : location , "age" : age , "goal" : goal , "ending" : ending}
+story_data = {"name" : character_name , "type" : story_type , "location" : location , "age" : age , "goal" : goal , "ending" : ending}
 
 def creat_prompt(story_data) :
     prompt = f"""
@@ -31,6 +32,7 @@ You are a creative story writer.
 
 Write a story based on the following choices
 
+The main character's name is {story_data["name"]}.
 Create a complete {story_data["type"]} story.
 The story takes place in {story_data["location"]}.
 The main character is {story_data["age"]} years old.
