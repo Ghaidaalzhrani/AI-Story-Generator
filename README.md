@@ -30,7 +30,8 @@ Ending: Happy
 
 **Output:**
 
-![Generated Story](https://raw.githubusercontent.com/Ghaidaalzhrani/AI-Story-Generator/main/images/story.png)
+![Generated Story](./images/story.png)
+
 
 ## Tech Stack
 - **Python** — core programming language
