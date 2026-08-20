@@ -30,10 +30,9 @@ Ending: Happy
 
 **Output:**
 
-![Generated Story](images/story.png)
+![Generated Story](https://raw.githubusercontent.com/Ghaidaalzhrani/AI-Story-Generator/main/images/story.png)
 
 ## Tech Stack
-
 - **Python** — core programming language
 - **Google Gemini API** — the generative model that writes the story
 - **google-generativeai** — Python library used to call the Gemini API
