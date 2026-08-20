@@ -18,6 +18,7 @@ goal = input ("What is the character's goal ?")
 ending = input ("What type of ending do you want ?")
 
 print("\n---- YOUR STORY CHOICES ----")
+print("character's name :" , character_name)
 print("Story type :" , story_type)
 print("Location :" , location)
 print("Character's age :" , age)
