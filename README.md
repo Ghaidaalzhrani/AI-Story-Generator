@@ -30,7 +30,7 @@ Ending: Happy
 
 **Output:**
 
-![Generated Story](./images/story.png)
+![Generated Story](images/story.png)
 
 
 ## Tech Stack
