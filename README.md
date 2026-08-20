@@ -55,7 +55,11 @@ Ending: Happy
    ```bash
    python main.py
    ```
+   ```bash
+   python main.py
+   ```
 
+## Why I Built This
 ## Why I Built This
 
 As an AI major, it was important to me not to stop at just the theory. I wanted to see how a concept like Prompt Engineering could turn into something real that anyone could use and see a tangible result from.
@@ -70,5 +74,14 @@ This is my first project of its kind, and I ran into real challenges along the w
 - Support for generating stories in multiple languages (Arabic/English)
 
 ---
+## Future Improvements
+
+- A simple graphical interface instead of terminal-based interaction
+- Saving generated stories to a text file or a lightweight database
+- A "regenerate" option in case the user doesn't like the first story
+- Support for generating stories in multiple languages (Arabic/English)
+
+---
 
 Built by Ghaidaa Alzahrani, AI student at Imam Abdulrahman Bin Faisal University.
+
